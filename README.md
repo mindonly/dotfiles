@@ -1,6 +1,10 @@
 # dotfiles
-various dotfiles
-* vim
-* zsh
+dotfiles for various utilities
+* julia
+* make
+* taskwarrior
 * tmux
+* vim
+* vscode
+* zsh
 
