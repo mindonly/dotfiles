@@ -84,15 +84,26 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="/usr/local/bin/vim"
-#alias octave="/usr/local/bin/octave"
 alias octave="/usr/local/bin/octave --no-gui-libs"
 alias sudo='sudo '
 alias ssheos='ssh sanchrob@eos${(l:2::0:)$((${RANDOM}%32+1))}.cis.gvsu.edu'
 alias sshsw='ssh -t -l sanchrob eos${(l:2::0:)$((${RANDOM}%32+1))}.cis.gvsu.edu ssh -A seawolf'
 alias sshfwdsw='ssh -f -N -L 2222:35.39.163.53:22 sanchrob@eos${(l:2::0:)$((${RANDOM}%32+1))}.cis.gvsu.edu'
 alias t='task'
-#
-# OCaml
-. ~/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+alias h='history'
+
 # vi mode
 bindkey -v
+
+# ZBS
+/Users/sanch/Dropbox/zbs.zsh
+
+# FUNCTIONS
+fpath=( ~/.zfuncs "${fpath[@]}" )
+for file in `ls $fpath[1]`; do
+    autoload -Uz $file
+done
+
+# history
+HISTSIZE=1024
+SAVEHIST=1024
