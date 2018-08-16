@@ -1,5 +1,7 @@
 call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-sensible'
+"Plug 'junegunn/vim-slash'
+"Plug 'junegunn/vim-peekaboo'
     Plug 'morhetz/gruvbox'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
