@@ -1,19 +1,12 @@
 {
-<<<<<<< HEAD
+  "editor": "vim",
+  "encrypt": false,
+  "linewrap": 84,
+  "highlight": true,
+  "timeformat": "%Y-%m-%d %H:%M",
   "default_hour": 8,
   "default_minute": 30,
-  "linewrap": 84,
-  "encrypt": false,
-=======
-  "default_hour": 9,
-  "linewrap": 84,
-  "encrypt": false,
-  "default_minute": 0,
->>>>>>> 3965dc996ec8490feae88d5fae776ed20ba7f125
   "tagsymbols": "@",
-  "editor": "vim",
-  "timeformat": "%Y-%m-%d %H:%M",
-  "highlight": true,
   "journals": {
     "default": {
       "journal": "~/Dropbox/Documents/journal/journal.txt",
