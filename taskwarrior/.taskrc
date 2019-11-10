@@ -15,7 +15,7 @@
 data.location=~/Dropbox/.task
 
 # Terminal
-editor=vim
+editor=nvim
 
 # Color theme (uncomment one to use)
 #include /opt/local/share/doc/task/rc/light-16.theme
